@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <input placeholder="enter a city" type="text" ng-model="city1"/>
+    <input placeholder="enter a city" type="text" ng-model="city2"/>
+    <input placeholder="enter your birth year" type="text" ng-model="year"/>
+
+    <h1>When we drive from {{city1}} to {{city2}} , you can see the many different things the world has to offer. Depending on your birth year {{2018 - year}} , you can go to any type of bar or adult like setting.</h1>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
